@@ -273,11 +273,4 @@
                 radial-gradient(circle at 40% 80%, hsl(var(--accent) / 0.1) 0%, transparent 50%);
     pointer-events: none;
   }
-
-  /* Script Font for handwritten style */
-  .script-font {
-    font-family: 'Dancing Script', 'Brush Script MT', cursive;
-    font-style: italic;
-    transform: rotate(-2deg);
-  }
 }
