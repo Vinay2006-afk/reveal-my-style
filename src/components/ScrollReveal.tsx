@@ -20,6 +20,8 @@ const ScrollReveal = ({ children, className = '', delay = 0 }: ScrollRevealProps
             setTimeout(() => {
               entry.target.classList.add('revealed');
             }, delay);
+          } else {
+            entry.target.classList.remove('revealed');
           }
         });
       },
